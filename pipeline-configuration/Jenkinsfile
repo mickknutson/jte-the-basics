@@ -1,2 +1,2 @@
-build()
-static_code_analysis()
+build() // is the same as build.groovy // references $PIPELINE_CONFIG/libraries/[maven|gradle]
+static_code_analysis() // same as static_code_analysis.groovy  // references $PIPELINE_CONFIG/libraries/[maven|gradle]
